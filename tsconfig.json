@@ -1,13 +1,20 @@
 {
   "compilerOptions": {
-    "esModuleInterop": true,
     "jsx": "react",
     "lib": ["dom", "dom.iterable", "esnext"],
+    "moduleResolution": "Node",
+    "declaration": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
     "module": "esnext",
     "outDir": "build",
     "sourceMap": true,
     "strict": true,
-    "target": "ES6"
+    "target": "ES6",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "baseUrl": "./"
   },
   "include": ["src"]
 }
